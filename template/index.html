@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <link rel="stylesheet" href='/static/style.css' /> -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        height: 75px;
+        /* background-color: rgb(0, 0, 0); */
+    }
+
+    nav ul li {
+        padding: 1em 10px;
+        margin: 0.5em;
+        color: rgb(153, 43, 43);
+        border-radius: 25px;
+        border-width: 2px;
+        /* border-color: rgba(0, 0, 0, 0.356); */
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 213, 222);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        top: 12em;
+        /* background-color: blue; */
+    }
+
+    a:link {
+        color: rgb(12, 10, 10);
+        background-color: white;
+        text-decoration: none;
+        width: 10em;
+
+    }
+    a{
+        font-size: large;
+        padding: 2em;
+        border: 1px solid rgba(105, 99, 99, 0.51);
+        border-radius: 15em;
+        width: 15em;
+        border-width: 5px;
+        
+
+    }
+
+
+
+    .box {
+        display: flex;
+        margin: 1em;
+        padding: 1em 11em 3em 11em;
+        /* border-radius: 10px;
+        border-width: 2px; */
+        border-color: rgba(192, 192, 192, 0.356);
+        color: rgb(137, 199, 43);
+        position: relative;
+        width: 15em;
+        /* background-color: aquamarine; */
+    }
+
+
+    body {
+        background-image: url("https://netcraftsmen.com/wp-content/uploads/2018/01/Spotlight-on-Cisco-Tetration-and-Cisco-Intersight-at-NFD16.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        
+    }
+</style>
+
+<body>
+    <!-- <a href="/start">upload</a> -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+        </ul>
+
+    </nav>
+    <div class="main">
+        <div class="box">
+            <button formaction="/cat">
+                <a href="/cat">
+                    <h>CLASSIFICATION</h>
+                    
+                </a>
+                <br>Cat vs Dog
+            </button>
+        </div>
+        <div class="box">
+            <button formaction="/face">
+                <a href="/index">
+                    <h>Face Recognizer </h>
+                    <!-- <h1>(Not ready yet)</h1> -->
+
+                </a>
+                <br>Not ready yet
+
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

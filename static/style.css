@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aqua;
+}
+.cat{
+    display: flex;
+    background-color: brown;
+
+}
+box{
+    display: flex;
+    background-color: blue;
+}
