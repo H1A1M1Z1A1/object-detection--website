@@ -1,10 +1,7 @@
 
 
 
-
-
-https://github.com/H1A1M1Z1A1/object-detection--website/assets/92072539/99104136-fecd-44f5-8b1c-56fc9096fce2
-
+https://github.com/H1A1M1Z1A1/object-detection--website/assets/92072539/8f26cf0e-9515-452f-9564-f8c4e3d46211
 
 
 
